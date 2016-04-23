@@ -1,0 +1,17 @@
+/*
+Theme Name: WP Speed
+Theme URI:
+Author: Klaudio Milanković
+Author URI: www.klaudiom.com
+Description: Simple Wordpress theme with focus on performance built for developers.
+
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:
+Text Domain: wpspeed
+
+*/
+
+body {
+    background: #888;
+}
