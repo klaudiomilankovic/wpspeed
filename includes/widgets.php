@@ -6,5 +6,5 @@ function wpspeed_widgets() {
         'id'   => 'wpspeed_sidebar',
         'description' => __('Main Sidebar For The Theme', 'wpspeed'),
         'class' => 'sidebar'
-        ));
+    ));
 };

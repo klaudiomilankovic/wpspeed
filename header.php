@@ -1,3 +1,9 @@
+<?php // Setup PHP
+    $menu_args = array(
+        'theme_location'    =>  'primary',
+        'container'         =>  'nav'
+    );
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,8 +17,5 @@
 </head>
 <body>
     <header class="header">
-        <?php wp_nav_menu(array(
-                    'theme_location'    =>  'primary',
-                    'container'         =>  'nav'
-        ))?>
+        <?php wp_nav_menu($menu_args)?>
     </header>
